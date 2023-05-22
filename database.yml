@@ -1,0 +1,7 @@
+development:
+  dialect: postgres
+  url: "postgresql://username:your_password@127.0.0.1:5433/sodademo"
+  pool: 5
+
+production:
+  url: "postgres://username:your_password@127.0.0.1:5433/sodademo"
